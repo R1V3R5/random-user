@@ -14,6 +14,7 @@ function companyTmpl(data) {
 			<p class="email">${data.email.toUpperCase()}</p>
 			<p class="address">${data.location.street}<br>
 			${data.location.city}, ${data.location.state} ${data.location.postcode}</p>
+            <div class="phone">${data.phone}</div><br>
 			<div id="social" class="blurry-text" class="social">${data.id.value}</div>
 		</div>
 	`
